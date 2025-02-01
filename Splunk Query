@@ -1,0 +1,6 @@
+What this query does:
+Finds all logs where EventCode=3000.
+Renames some fields for better readability.
+Groups results by Process, Exit Code, and Destination (dest).
+Counts occurrences and extracts the earliest and latest timestamps for each unique combination.
+Converts timestamps into a human-readable format.
